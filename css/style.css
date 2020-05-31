@@ -1,4 +1,58 @@
+@font-face {
+  font-family: 'Ubuntu Light';
+  src: url("../fonts/Ubuntu-Light.eot");
+  src: url("../fonts/Ubuntu-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Ubuntu-Light.woff") format("woff"), url("../fonts/Ubuntu-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu Bold';
+  src: url("../fonts/Ubuntu-Bold.eot");
+  src: url("../fonts/Ubuntu-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Ubuntu-Bold.woff") format("woff"), url("../fonts/Ubuntu-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+h1, h2 h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Ubuntu Light" , sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  background: url(../img/bg-main.png);
+  background-size: 100%;
+}
+
+.main .header .logo-title {
+  font-size: 24px;
+}
+
+.main .header .menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .header .menu__link {
+  font-size: 18px;
 }
 /*# sourceMappingURL=style.css.map */
