@@ -1,0 +1,53 @@
+.main-content
+  position: relative
+  .content-block
+    margin-top: 100px
+    &__title
+      color: #fff 
+      font-size: 50px
+      +bold()
+    &__subtitle
+      margin-top: 25px
+      color: #fff 
+      font-size: 18px
+    .btn-block
+      .btn
+        margin-top: 45px
+        padding: 14px 40px
+        margin-right: 13px
+        color: #fff 
+        font-size: 18px
+        +bold()
+
+        &-download
+          background-color: $orange
+        &-features
+          background-color: $blue
+  .anchor-btn
+    display: inline-block
+    width: 39px
+    height: 39px
+    border-radius:  50%
+    background-color: red 
+    position: absolute
+    transform: translateX(550px)
+    margin-top: 55px
+    &-block
+      position: relative
+      span, &::before
+        position: absolute
+        top: 20px
+        margin-top: -1px
+        left: 14px
+        margin-left: -10px;
+        height: 2px
+        width: 17px
+        background-color: #000 
+        line-height: px
+        transform: rotate(45deg)
+        &::before
+          content: ''
+          transform: translateX(-10px)
+
+    &:hover
+      cursor: pointer
